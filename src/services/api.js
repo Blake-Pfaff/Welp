@@ -6,7 +6,7 @@ export const API = {
   getBusinesses: async (searchTerm) => {
     const url = new URL(BASE_URL);
     url.searchParams.append("location", BASE_CITY);
-    url.searchParams.append("categories", searchTerm);
+    url.searchParams.append("term", searchTerm);
 
     const apiKey = `Bearer ${process.env.REACT_APP_YELP_API_KEY}`;
 
