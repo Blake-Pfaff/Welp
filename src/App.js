@@ -44,7 +44,7 @@ function App() {
       />
       {/* <pre>{JSON.stringify(businesses, null, 2)}</pre> */}
       {apiData.businesses.map((item) => (
-        <div className="p-2 mt-4" key={item.id}>
+        <div className="p-2 mt-4 bg-gray-300" key={item.id}>
           {item.name}
         </div>
       ))}
