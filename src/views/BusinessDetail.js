@@ -15,7 +15,6 @@ const BusinessDetail = () => {
     const data = await API.getBusiness(id);
     setBusiness(data);
   };
-  // console.log(business.name);
 
   if (business.id) {
     return (

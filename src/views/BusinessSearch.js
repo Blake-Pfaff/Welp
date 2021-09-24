@@ -42,7 +42,6 @@ const BusinessSearch = () => {
         onChange={handleSearchTermChange}
         onSubmit={handleSearchSubmit}
       />
-      {/* <pre>{JSON.stringify(apiData.businesses, null, 2)}</pre> */}
 
       {apiData.businesses.map((item) => (
         <Link
